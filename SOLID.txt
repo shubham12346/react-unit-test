@@ -1,0 +1,7 @@
+SOLID 
+
+1. Single Responsibility 
+2. Open Close 
+3. Lislov substitution 
+4. Integration segregation 
+5. Dependency Inversion 

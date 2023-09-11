@@ -1,0 +1,43 @@
+React Query 
+
+A library for fetching data in React Application 
+
+Why ? 
+1 . Since React is a UI library , there is no specific pattern for data fetching 
+2. useEffect hook for data fetching and usestate hook to maintain component state like loading , error or resulted data 
+3. If hte data is needed throughout the app , we tend to use state management libraries 
+
+4. Most of the state management libraries are good for working with client state .
+
+5 . State management libraries are not great for working with asynchronous or server state 
+
+Client vs Server state 
+
+Client State 
+- Persisted in your app memory and accessing or updating it synchronously 
+
+Server state 
+- Persisted remotely and requires asynchronous APIs for fetching or updating 
+- Has shared ownership 
+- Data can be updated by someone else without your knowledge 
+- UI data may not be in sync  with  remote data 
+- Challenging when you have to deal with caching , deduping multiple request for the same data  , updating stale data in the background , performance optimizations etc 
+
+
+
+
+Project Setup 
+1. New React Project using CRA 
+2. set up an API endpoint that serves mock data for use in our application 
+3. Set  up react router and a few routes in that application 
+4. Fetch data the traditional way using useEffect and useState   
+
+JSON-SERVER Libaray 
+1. install library json-server 
+2. in package json add this in script 
+
+"scripts":{
+  "serve-json": "json-server --watch db.json --port 4000"
+}
+
+3.  create db.josn file put data , you wil be able to see 

@@ -1,0 +1,12 @@
+1 . What is the main purpose of .(dot) env file ? 
+
+-> The main purpose of dot env file is to store configuration variables for an project . It allows us to define environment specfic settting , sensative information , or any other configuration values that may vary between development , testing and production environment .
+
+
+2 . Nullish Coalescing Operator (?? ) 
+   -> It provide a default value when dealing with null or undefined 
+ 	for eg .
+       a =null , b=2  
+
+       c= a??b 
+
